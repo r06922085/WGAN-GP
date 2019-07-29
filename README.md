@@ -1,11 +1,11 @@
 # Model description:
 **-Generator:**
 <br>input(64,100)
-<br>Dense(4*4*64*8,’linear’)
-<br>Reshape((64,4,4,64*8))
-<br>Conv2d_transpose(64*4, [4, 4], [2, 2])
+<br>Dense(4x4x64x8,’linear’)
+<br>Reshape((64,4,4,64x8))
+<br>Conv2d_transpose(64x4, [4, 4], [2, 2])
 <br>relu_batch_norm
-<br>Conv2d_transpose(64*2, [4, 4], [2, 2])
+<br>Conv2d_transpose(64x2, [4, 4], [2, 2])
 <br>relu_batch_norm
 <br>Conv2d_transpose(64, [4, 4], [2, 2])
 <br>relu_batch_norm
