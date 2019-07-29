@@ -31,7 +31,7 @@
 <br>超過100000iteration之後多樣性會下降.
 
 # Compare to original GAN
-<img src="https://github.com/r06922085/WGAN-GP/blob/master/GAN%20vs%20WGAN-GP.png" width="50%" height="50%">
+<img src="https://github.com/r06922085/WGAN-GP/blob/master/GAN%20vs%20WGAN-GP.png" width="100%" height="100%">
 
 # Training tips for improvement
 <br>Tip 1: Normalize the inputs
