@@ -1,6 +1,6 @@
 # Model description:
 **-Generator:**
-<>input(64,100)
+<br>input(64,100)
 Dense(4*4*64*8,’linear’)
 Reshape((64,4,4,64*8))
 Conv2d_transpose(64*4, [4, 4], [2, 2])
